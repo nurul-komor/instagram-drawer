@@ -10,7 +10,7 @@ const drawerBtns = document.querySelectorAll(".drawer-btn");
 function openDrawer() {
   for (let i = 0; i < drawerBtns.length; i++) {
     drawerBtns[i].addEventListener("click", () => {
-      if (window.innerWidth >= 768) {
+      if (window.innerWidth >= 0) {
         drawer.classList.toggle("open");
         drawerContent.classList.toggle("hide");
         if (drawer.classList.contains("open")) {
