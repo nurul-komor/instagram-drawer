@@ -6,6 +6,12 @@
 #custom-drawer.open {
   width: 400px;
 }
+@media (max-width: 768px) {
+  #custom-drawer.open {
+    width: 80%;
+    max-width: 300px;
+  }
+}
 .drawer-content {
   visibility: visible;
   transition: 0.1s;
