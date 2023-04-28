@@ -14,7 +14,7 @@ Some applications need drawer. So, I created a drawer using tailwind css and van
 
 Step 1: I hope you knowledge about tailwindCss and you had already finished setup tailwind copy all the dist/style.css and dist/script.js file from dist directory. Add those in your project.
 
-Step 2: Now copy code from dist/index.html from just the "drawer copmonent" and paste it in your project where the css and js file are connected
+Step 2: Now copy code from public/index.html from just the "drawer copmonent" and paste it in your project where the css and js file are connected
 
 Step 3: Create a button or div tag and add this drawer-btn class from below
 
