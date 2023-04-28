@@ -1,0 +1,15 @@
+#custom-drawer {
+  transition: 0.4s;
+  width: 0;
+}
+
+#custom-drawer.open {
+  width: 400px;
+}
+.drawer-content {
+  visibility: visible;
+  transition: 0.1s;
+}
+.drawer-content.hide {
+  visibility: hidden;
+}
