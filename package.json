@@ -1,13 +1,14 @@
 {
-	"scripts": {
-	"build" : "tailwindcss -i ./dist/input.css -o ./dist/build/output.css",
-	"build-watch" : "tailwindcss -i ./dist/input.css -o ./dist/build/output.css --watch"
-},
-	"devDependencies": {
-		"tailwindcss": "^3.3.2"
-	},
-	"dependencies": {
-		"autoprefixer": "^10.4.14",
-		"postcss": "^8.4.23"
-	}
+  "name": "instagram-drawer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2"
+  }
 }
