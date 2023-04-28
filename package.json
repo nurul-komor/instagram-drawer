@@ -1,0 +1,13 @@
+{
+	"scripts": {
+	"build" : "tailwindcss -i ./dist/input.css -o ./dist/build/output.css",
+	"build-watch" : "tailwindcss -i ./dist/input.css -o ./dist/build/output.css --watch"
+},
+	"devDependencies": {
+		"tailwindcss": "^3.3.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.23"
+	}
+}
